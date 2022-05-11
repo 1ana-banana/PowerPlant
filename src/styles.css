@@ -1,0 +1,10 @@
+.plant {
+  display: flex;
+  margin-bottom: 3%;
+  justify-content: space-evenly;
+}
+
+.plantButtons {
+  display:flex;
+  justify-content: center;
+}
