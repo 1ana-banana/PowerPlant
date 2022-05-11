@@ -1,7 +1,6 @@
-/*
 import $ from 'jquery';
 
-export function updateStatus(plant) {
+const updateStatus = function(plant) {
   if (plant.food < 5) {
     $("#foodLevel .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-danger');
   } else if (plant.food <= 10) {
@@ -26,9 +25,9 @@ export function updateStatus(plant) {
     $("#lightLevel .progress-bar").attr('class', 'progress-bar progress-bar-striped progress-bar-animated bg-success');
   }
 
-  $("#foodLevel" .progress-bar).attr('style', 'width: ${#plant.food*5}%');
-  $("#waterLevel" .progress-bar).attr('style', 'width: ${#plant.water*5}%');
-  $("#lightLevel" .progress-bar).attr('style', 'width: ${#plant.light*5}%');
-}
+  $("#foodLevel .progress-bar").attr('style', 'width: ${#plant.food*5}%');
+  $("#waterLevel .progress-bar").attr('style', 'width: ${#plant.water*5}%');
+  $("#lightLevel .progress-bar").attr('style', 'width: ${#plant.light*5}%');
+};
 
-*/
+export default updateStatus

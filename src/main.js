@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './styles.css';
 import { yuckyFood, plant, goodFood, light, water} from './../src/plant.js';
-import {updateStatus} from './../src/standalone.js';
+import { updateStatus } from './../src/standalone.js';
 
 $(document).ready(function () {
   $('#yuckyFood').click(function() {
